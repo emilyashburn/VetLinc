@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">VetLinc</string>
+    <string-array name="categories">
+        <item>Jobs</item>
+        <item>Community</item>
+        <item>Shelter</item>
+        <item>Food</item>
+        <item>Utilities</item>
+        <item>Health</item>
+    </string-array>
+</resources>

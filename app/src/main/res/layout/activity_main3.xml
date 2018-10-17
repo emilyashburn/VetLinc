@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Main3Activity">
+
+    <TextView
+        android:id="@+id/categoryLabel"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Category"
+        android:textAppearance="@android:style/TextAppearance.Large"
+        tools:layout_editor_absoluteX="148dp"
+        tools:layout_editor_absoluteY="32dp" />
+
+    <TextView
+        android:id="@+id/link1Label"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Link 1"
+        android:textAppearance="@android:style/TextAppearance.Large"
+        android:textStyle="bold"
+        tools:layout_editor_absoluteX="16dp"
+        tools:layout_editor_absoluteY="115dp" />
+
+    <TextView
+        android:id="@+id/link2Label"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Link 2"
+        android:textAppearance="@android:style/TextAppearance.Large"
+        android:textStyle="bold"
+        tools:layout_editor_absoluteX="15dp"
+        tools:layout_editor_absoluteY="187dp" />
+
+    <TextView
+        android:id="@+id/link3Label"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Link 3"
+        android:textAppearance="@android:style/TextAppearance.Large"
+        android:textStyle="bold"
+        tools:layout_editor_absoluteX="16dp"
+        tools:layout_editor_absoluteY="262dp" />
+
+    <Button
+        android:id="@+id/link1CallButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Call"
+        android:onClick="call"
+        tools:layout_editor_absoluteX="148dp"
+        tools:layout_editor_absoluteY="107dp" />
+
+    <Button
+        android:id="@+id/link1WebButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Web"
+        android:onClick="surf"
+        tools:layout_editor_absoluteX="279dp"
+        tools:layout_editor_absoluteY="107dp" />
+
+    <Button
+        android:id="@+id/link2CallButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Call"
+        android:onClick="call"
+        tools:layout_editor_absoluteX="147dp"
+        tools:layout_editor_absoluteY="187dp" />
+
+    <Button
+        android:id="@+id/link2WebButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Web"
+        android:onClick="surf"
+        tools:layout_editor_absoluteX="279dp"
+        tools:layout_editor_absoluteY="187dp" />
+
+    <Button
+        android:id="@+id/link3CallButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Call"
+        android:onClick="call"
+        tools:layout_editor_absoluteX="146dp"
+        tools:layout_editor_absoluteY="262dp" />
+
+    <Button
+        android:id="@+id/link3WebButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Web"
+        android:onClick="surf"
+        tools:layout_editor_absoluteX="279dp"
+        tools:layout_editor_absoluteY="261dp" />
+</android.support.constraint.ConstraintLayout>
